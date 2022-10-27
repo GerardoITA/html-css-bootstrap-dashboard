@@ -1,0 +1,59 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: beige;
+}
+body {
+    max-width: 2000px;
+}   
+[class*="col"] {
+    background-color: rgb(0, 89, 255);
+    min-height: 30px;
+    border: 1px solid black;
+}
+
+[class*="row"] {
+    background-color: bisque;
+
+}
+
+[class*="container"] {
+    background-color: rgb(109, 69, 20);
+
+}
+img {
+    max-width: 100%;
+}
+
+/* Cosmetics */
+.round {
+    border-radius: 10px;
+}
+
+/* Colours */
+.white {
+    background-color: white;
+}
+.dark-white {
+    background-color: rgb(240, 240, 240);
+}
+.light_grey {
+    background-color: rgb( 229, 229, 229);
+}
+
+
+
+
+
+
+
+
+/* Responsiveness */
+.show_big {
+    display: none;
+}
+.show_small {
+    display: inline-block;
+}
