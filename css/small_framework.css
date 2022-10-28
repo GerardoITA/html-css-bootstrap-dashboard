@@ -17,3 +17,15 @@
     left: 50%;
     transform: translate(-50%);
 }
+
+
+[class*="col-"] {
+    /* background-color: rgb(5, 47, 124); */
+    min-height: 30px;
+
+}
+
+[class*="row"] {
+    
+
+}
