@@ -1,0 +1,19 @@
+.list-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.f-row {
+    flex-direction: row;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.abs-center {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}

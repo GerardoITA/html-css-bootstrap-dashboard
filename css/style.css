@@ -1,2 +1,117 @@
+body {
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+* {
+    box-sizing: border-box;
+}
+i {
+    margin-right: 3px;
+}
+ul {
+   list-style-type: none;
+}
 
+nav,
+main {
+    height: calc(100vh - 100px);
+
+}
+/* ////// Respclass ////// */
+.desktop {
+    display: inline-block;
+}
+.tablet {
+    display: none;
+}
+/* ////// Cosmetics ////// */
+.interactive:hover {
+    cursor: pointer;
+}
+.orange {
+    color: orange;
+}
+
+/* ////// Header ////// */
+header {
+    height: 100px;
+    width: 100%;
+    padding-top: 25px;
+    background-color: rgb(248, 249, 250);
+}
+.header_column {
+    height: 100%;
+    padding: 0 1%;
+}
+.side {
+    width: 15%;
+    
+}
+.center {
+    width: 70%;
+    background-color: rgb(229, 229, 229);
+    border-radius: 15px;
+}
+.top {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+/* ////// Nav ////// */
+nav {
+    background-color: rgb(0, 49, 83);
+    width: 180px;
+    padding-top: 50px;
+    padding-right: 50px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+.admin {
+    bottom: 30px;
+}
+/* ////// Main ////// */
+main {
+    width: calc(100% - 180px);
+    background-color: aqua;
+    position: absolute;
+    left: 180px;
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////// Responsiveness ////// */
+
+ @media only screen and (max-width: 1220px) {
+     .tablet {
+        display: inline-block;
+     }
+     .desktop {
+        display: none;
+     }
+     nav {
+        width: 100px;
+     }
+     main {
+        left: 100px
+     }
  }
