@@ -33,7 +33,12 @@ main {
 .orange {
     color: orange;
 }
-
+.dark_orange {
+    color: rgb(242, 101, 81);
+}
+.grey {
+    color: grey;
+}
 /* ////// Header ////// */
 header {
     height: 100px;
@@ -102,29 +107,27 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 50px;
+    gap: 25px;
 }
 .tabella {
     background-color: white;
-    border-radius: 10px;
-    border: 1px gray solid;
     display: inline-block;
 }
 .large {
     min-width: calc(( 100% / 3 ) * 2 - 50px);
 }
 .tall {
-    min-height: calc(( 100% / 3 ) * 2 );
+    min-height: calc(( 100% / 4 ) * 3 );
 }
 .short {
-    max-height: calc( 100% / 3);
+    max-height: calc( 100% / 4);
 }
 .narrow {
     min-width: calc(100% / 3);
 }
 .move_up {
     position: relative;
-    bottom: calc(100% / 3);
+    bottom: calc(100% / 2);
 }
 .title  {
     border-top-left-radius: 10px;
@@ -136,12 +139,49 @@ main {
     background-color: rgb(229, 229, 229);
     border-bottom: 1px gray solid;
 }
+.content {
+    padding: 10px;
+}
+.stato {
+    padding: 2px 8px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
 
-
-
-
-
-
+}
+.done {
+    background-color: rgb(25, 135, 84);
+}
+.failed {
+    background-color: rgb(242, 101, 81)
+}
+.process {
+    background-color: orange;
+}
+.pulsante {
+    border: 1px solid grey;
+    text-align: center;
+    width: 50px;
+    padding: 6px;
+    border-radius: 10px;
+}
+.border-btm {
+    border-bottom: 1px gray solid;
+}
+.border-round {
+    border-radius: 10px;
+    border: 1px gray solid;
+}
+.tab_img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.tab_img {
+    max-width: 300px;
+}
+.padding-left {
+    padding-left: 30px;
+}
 
 
 
@@ -151,7 +191,7 @@ main {
 
 /* ////// Responsiveness ////// */
 
- @media only screen and (max-width: 1250px) {
+ @media only screen and (max-width: 1350px) {
      .tablet {
         display: inline-block;
      }
