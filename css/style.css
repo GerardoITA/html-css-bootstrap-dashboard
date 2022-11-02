@@ -182,16 +182,25 @@ main {
 .padding-left {
     padding-left: 30px;
 }
+.hidden {
+    display: none;
+}
+.shown {
+    display: inline-block;
+}
 
 
-
-
-
-
+/* ////// Interactive ////// */
+.shown:active {
+    
+}
+.hidden:hover {
+    display: inline-block;
+}
 
 /* ////// Responsiveness ////// */
 
- @media only screen and (max-width: 1350px) {
+ @media only screen and (max-width: 1460px) {
      .tablet {
         display: inline-block;
      }
